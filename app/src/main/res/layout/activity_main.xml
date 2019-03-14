@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wekaradwan.blood.UI.MainActivity">
+
+
+
+    <Button
+        android:id="@+id/buttonA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="138dp"
+        android:tag="A"/>
+
+
+    <Button
+        android:id="@+id/buttonB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="138dp"
+        android:text="B"
+        android:tag="B"/>
+
+
+    <Button
+        android:id="@+id/buttonO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="138dp"
+        android:text="O"
+        android:tag="O"/>
+
+
+</LinearLayout>
